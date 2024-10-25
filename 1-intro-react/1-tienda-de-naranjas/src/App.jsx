@@ -1,17 +1,19 @@
+import { Header } from "./Componentes/Header"
+import Section from "./Componentes/Section"
+import Article from "./Componentes/Article"
+import Footer from "./Componentes/Footer"
+
 function App() {
   
   return(
     <div>
-      <header>Header
-        <nav>Menu de navegacion</nav>
-      </header>
-      <section>Seccion promos🍊</section>
-      <section>Seccion tienda🏣</section>
-      <footer>Pie de pagina</footer>
+      <Header/>
+      <Section/>
+      <Article/>
+      <Footer/>
     </div>
   )
     
   }
   
   export default App
-  
