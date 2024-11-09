@@ -1,0 +1,67 @@
+/* Centrado del contenido principal */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  color: rgb(236, 122, 193);
+}
+
+/* Estilos para el título principal */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dda3d5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: hsl(0, 0%, 9%);
+  text-align: center;
+}
+
+/* Estilos para las tarjetas */
+.card {
+  box-shadow: 0px 4px 8px rgba(17, 118, 212, 0.1);
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(184, 27, 27, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Estilos para los títulos de las tarjetas */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para el texto de las tarjetas */
+.card-text {
+  color: #666;
+}
+
+/* Espaciado entre las filas y columnas de las tarjetas */
+.row.justify-content-center .col-md-3,
+.row.justify-content-center .col-md-5,
+.row.justify-content-center .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
